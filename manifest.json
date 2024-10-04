@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "shuffl3d",
+    "version": "1.0.0",
+    "description": "Shuffle bookmarks, active recall, spaced repetition",
+    "homepage_url": "https://shuffl3d.com",
+    "icons": {
+      "48": "images/icon-48.png",
+      "128": "images/icon-128.png"
+    },
+    "default_locale": "en",
+    "browser_action":{
+        "default_icon": "images/icon-48.png",
+        "default_title": "Shuffl3d",
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "bookmarks",
+        "browsingData",
+        "contentSettings",
+        "management",
+        "tabs",
+        "storage",
+        "notifications",
+        "cookies",
+        "chrome://favicon/",
+        "idle",
+        "alarms",
+        "storage"
+    ]
+  }
